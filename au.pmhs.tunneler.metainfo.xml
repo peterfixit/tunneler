@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>au.pmhs.tunneler</id>
+  <name>Tunneler</name>
+  <summary>Install, connect, test and diagnose Linux VPN profiles</summary>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <description>
+    <p>
+      Tunneler is a guided Linux VPN connection assistant for WireGuard, OpenVPN,
+      L2TP/IPsec, IKEv2 and OpenConnect profiles managed by NetworkManager.
+    </p>
+  </description>
+  <launchable type="desktop-id">au.pmhs.tunneler.desktop</launchable>
+  <provides>
+    <binary>tunneler</binary>
+  </provides>
+  <releases>
+    <release version="1.1.0" date="2026-07-21">
+      <description>
+        <p>Renames the application to Tunneler and adds a native or fully included dark file browser with bundled Tk/Tcl and FUSE-free AppImage startup.</p>
+      </description>
+    </release>
+    <release version="1.0.1" date="2026-07-21">
+      <description>
+        <p>Fixes profile refresh completion, adds timeout recovery, introduces a dark interface and replaces the application icon.</p>
+      </description>
+    </release>
+    <release version="1.0.0" date="2026-07-21"/>
+  </releases>
+</component>
